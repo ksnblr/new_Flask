@@ -1,9 +1,9 @@
-from flask import Flask
+from flask import flask
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>Hello Puppy!</h1>'
+    return '<H1> Hello Puppies </H1>'
 
 if __name__ == '__main__':
     app.run()
